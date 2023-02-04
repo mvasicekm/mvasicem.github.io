@@ -1,0 +1,245 @@
+/* GENERAL */
+
+
+/* NAVBAR */
+
+.navbar {
+    padding: .8rem;
+}
+
+.navbar-nav li {
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-left: 4px;
+    margin-right: 4px;
+    border-radius: 5px;
+}
+
+.nav-link {
+    font-size: 1.1em !important;
+}
+
+.navbar-nav li:hover {
+    background-color: #444;
+}
+
+.navbar-brand {
+    font-size: 180%;
+}
+
+.navbar-brand img {
+    max-width: 70px;
+    margin-right: 10px;
+    margin-top: -15px;
+    margin-bottom: -10px;
+}
+
+/* CAROUSEL */
+
+.carousel-caption-top {
+    position: absolute;
+    right: 15%;
+    top: 1rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+    text-shadow: 1px 1px 15px #000;
+}
+
+.carousel-caption {
+    text-shadow: 1px 1px 10px #000;
+}
+
+.carousel-item img {
+    max-height: 768px;
+    min-width: auto;
+}
+.carousel-item {
+    height: 768px;
+}
+
+.carousel-item-1 {
+    background: url(img/car1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.carousel-item-2 {
+    background: url(img/car2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.carousel-item-3 {
+    background: url(img/car3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+/* ABOUT */
+.about i.bi {
+    font-size: 40px;
+}
+
+img.photo {
+    border: 15px solid #f3f3f3;
+}
+
+/* APPLICATION */
+.about a {
+    color: #000;
+    text-decoration: underline;
+}
+
+.about a:hover {
+    text-decoration: none;
+}
+
+
+.about .description li {
+    display: block;
+}
+
+.about .description li:before {
+    content: "\F4F5";
+    font-family: bootstrap-icons!important;
+    float: left;
+    margin-top: 1px;
+    margin-left: -22px;
+}
+
+.about .description p {
+    text-align: justify;
+}
+
+/* TEAM */
+
+.team .card {
+    text-align: center;
+    transition: all ease-in-out 0.3s;
+    background: #fff;
+    box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
+}
+
+.team .card h4 {
+    font-weight: 600;
+    margin: 6px 0 12px 0;
+    font-size: 22px;
+}
+
+.team .card h4 a {
+    color: #124265;
+    transition: ease-in-out 0.3s;
+}
+
+.team .card p {
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.team .card:hover {
+    border-color: #ccc;
+    box-shadow: 0 0 35px 0 rgba(0, 0, 0, 0.16);
+}
+
+
+ 
+/* APPLICATION */
+.application a {
+    color: #000;
+    text-decoration: underline;
+}
+
+.application a:hover {
+    text-decoration: none;
+}
+
+.application i.bi-arrow-down-circle-fill {
+    font-size: 140%;
+    display: block;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* FOOTER */
+#footer {
+    color: #444444;
+    font-size: 14px;
+    background: #f8fbfe;
+    box-shadow: 0px 2px 15px rgba(18, 66, 101, 0.08);
+    padding: 30px 0 30px 0;
+  }
+
+#footer .footer-right {
+    color: #808080;
+}
+
+#footer .footer-right a {
+    color: #808080;
+    text-decoration: none;
+}
+
+#footer .footer-right a:hover {
+    text-decoration: underline;
+}
+
+#footer .footer-github a {
+    font-size: 200%;
+    color: #ccc;
+    margin-bottom: -5rem;
+}
+
+#footer .footer-github a:hover {
+    color: #ddd;
+}
+
+
+/* BACK TO TOP */
+.back-to-top {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 20px;
+    bottom: 20px;
+    z-index: 996;
+    background: #666;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #999;
+    transition: all 0.4s;
+  }
+  .back-to-top i {
+    font-size: 28px;
+    color: #fff;
+    line-height: 0;
+  }
+  .back-to-top:hover {
+    background: #333;
+    color: #fff;
+  }
+  .back-to-top.active {
+    visibility: visible;
+    opacity: 1;
+  }
+
+/* SECTION */
+
+section {
+    padding: 80px 0;
+    overflow: hidden;
+}
+ 
+.section-above {
+    margin-bottom: -50px;
+}
+
+.section-bg {
+    background-color: #f6f6f6;
+}

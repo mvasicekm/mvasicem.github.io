@@ -1,0 +1,576 @@
+<!doctype html>
+<html lang="cs">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Letní zážitkový kurz pro mladé, kterým není lhostejný svět kolem sebe.">
+        <meta name="keywords" content="Halahoj, zážitkový kurz, pštros, rozvoj, mládež">
+        <meta name="author" content="Tomáš Protivínský">
+
+        <title>Nebuď pštros</title>
+        
+        <!--
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.min.css" integrity="sha384-ejwKkLla8gPP8t2u0eQyL0Q/4ItcnyveF505U0NIobD/SMsNyXrLti6CWaD0L52l" crossorigin="anonymous">
+        -->
+
+        <link href="jsdelivr/bootstrap.min.css" rel="stylesheet">
+        <script src="jsdelivr/bootstrap.bundle.min.js"></script>
+        <link href="jsdelivr/bootstrap-icons.min.css" rel="stylesheet">
+        
+        <link href="style.css" rel="stylesheet">
+
+        <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+
+    </head>
+
+    <body>
+
+        <!-- NAVIGATION -->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="img/logo.png"> Nebuď pštros</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">O kurzu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#team">Tým</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pax">Účastníci</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#application">Přihlášení</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- IMAGE SLIDER -->
+        <div id="slider" class="carousel slide carousel-fade section-above" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active carousel-item-1">
+                    <div class="container">
+                        <div class="carousel-caption-top">
+                            <h1 class="display-1">Nebuď pštros.</h1>
+                        </div>
+                        <div class="carousel-caption">
+                            <h2 class="display-6"><i>Jsi-li nespokojený, jdi a vhodnou formou usiluj o změnu. Stačí vystrčit hlavu z písku.</i></h2>
+                        </div>
+                    </div>              
+                </div>
+                <div class="carousel-item carousel-item-2">
+                    <div class="container">
+                        <div class="carousel-caption-top">
+                            <h1 class="display-1">Nebuď pštros.</h1>
+                        </div>
+                        <div class="carousel-caption">
+                            <h2 class="display-6"><i>Být dospělý znamená naučit se dělat rozhodnutí a brát za ně zodpovědnost.</i></h2>
+                        </div>
+                    </div>              
+                </div>
+                <div class="carousel-item carousel-item-3">
+                    <div class="container">
+                        <div class="carousel-caption-top">
+                            <h1 class="display-1">Nebuď pštros.</h1>
+                        </div>
+                        <div class="carousel-caption">
+                            <h2 class="display-6"><i>Svoboda neznamená nic pro ptáka, který se ještě nenaučil létat.</i></h2>
+                        </div>
+                    </div>              
+                </div>
+            </div>
+            <div class="container">
+                <button class="carousel-control-prev" type="button" data-bs-target="#slider" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#slider" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>          
+            </div>
+        </div>
+
+        <!-- ABOUT -->
+        <section id="about" class="about section-above">
+            <div class="container" data-aos="fade-up">
+                <div class="section-title">
+                    <h1 class="text-center display-2 mt-4">O kurzu</h1>
+                </div>
+                <div class="mt-4"><h2 class="text-center display-6"><i>Co je "Nebuď pštros"? A proč se to jmenuje tak divně?</i></h2></div>
+                <div class="row text-center padding mt-4">
+                    <div class="col-xs-12 col-sm-6 col-md-3 icon">
+                        <i class="bi bi-people-fill"></i>
+                        <h3>Kdo?</h3>
+                        <p><b>24 účastníků ve věku 16–25 let</b></p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 icon">
+                        <i class="bi bi-calendar-event-fill"></i>
+                        <h3>Kdy?</h3>
+                        <p><b>31. 7. – 6. 8. 2022</b></p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 icon">
+                        <i class="bi bi-signpost-2-fill"></i>
+                        <h3>Kde?</h3>
+                        <p><b>Táborová základna Mrákotín</b></p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 icon">
+                        <i class="bi bi-currency-exchange"></i>
+                        <h3>Za kolik?</h3>
+                        <p><b>3&nbsp;000&nbsp;Kč, pro členy Halahoje 2&nbsp;800&nbsp;Kč</b></p>
+                    </div>
+                </div>
+
+                <div class="row description">
+                    <div class="col-lg-6 col-md-12 d-flex">
+                        <div class="mt-auto mb-auto ms-auto me-auto" style="padding: 1rem">
+                            <p><b>Nebuď pštros</b> je letní zážitkový kurz pro mladé holky a kluky, kteří touží prožít intenzivní týden v mrákotínské přírodě, poznat nové kamarády a dozvědět se něco více o sobě samém. Také pro ty, kterým není lhostejný současný svět a mají chuť a touhu být jeho aktivní součástí.</p>
+                            
+                            <p>Jako tým usilujeme o všestranný rozvoj člověka s důrazem na život ve společnosti. Na kurzu cílíme na následující hodnoty:</p>
+
+                            <ul>
+                                <li>Zodpovědnost</li>
+                                <li>Svoboda</li>
+                                <li>Zdravé sebevědomí</li>
+                                <li>Pevná vůle</li>
+                                <li>Aktivní prožívání svého života</li>
+                            </ul>
+
+                            <p>A proč nechceme být jako pštros? Protože se nechceme před problémy schovávat jako pštrosí hlava do písku, či před nimi utíkat, jak to dokážou jeho rychlé nohy. Chceme využívat všech našich schopností a darů, a ne je mít jen na okrasu jako pštros svoje křídla, jež nikdy nevyužije k letu. Chceme si zachovat klid a rozvahu namísto pštrosí popudlivosti. A o tom všem bude kurz.</p>
+
+                            <p><b>Je pro mě zážitkový kurz vhodný?</b></p>
+                            <p>Program bude velmi intenzivní jak fyzicky, tak psychicky. Bude se po tobě chtít, abys běhal, plaval, uměl se překonat, kousnout, ale taky sdílet se s ostatními, odvázat se, tvořit, smát se a užívat si pohody.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <br>
+                        <img src="img/hromadna.jpg" alt="" class="img-fluid photo">
+                    </div>
+                </div>
+
+                <div class="row mt-4">
+                    <div class="col-12 text-center mb-4">
+                        <br>
+                        <h2 class="text-center display-6"><i>Video z kurzu Odlož si</i></h2>
+                        Nevíš, co od zážitkového kurzu Halahoje čekat? Podívej se na video ze zážitkového kurzu Odlož si pořádaného v roce 2020.
+                    </div>
+                    <div class="col-xl-2 col-lg-1"></div>
+                    <div class="col-xl-8 col-lg-10 col-12">
+                        <div class="ratio ratio-16x9">
+                            <iframe src="https://www.youtube-nocookie.com/embed/r8SEMpKeGVw" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-1"></div>
+                </div>
+                <br>
+
+                <div class="row mt-4">
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 ms-auto me-auto mb-4"><a href="http://www.halahoj.org" target="_blank"><img src="img/halahoj-black.gif" alt="" class="img-fluid"></a></div>
+                    <div class="col-lg-10 col-md-9 col-sm-8 col-12" style="display: flex">
+                        <div class="mt-auto mb-auto">
+                            <a href="http://www.halahoj.org" target="_blank">Studentský klub Katolického gymnázia Halahoj</a> nabízí již 20 let zajímavý program nejrůznějších volnočasových aktivit pro děti a mládež, rozšiřující jejich všestranné vědomosti, dovednosti, a pomáhá jim vyrůst v samostatné a zodpovědné jedince.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- TEAM -->
+        <div id="team" class="container" style="height: 50px;"></div>
+        <section class="team section-bg section-above" style="padding-top: 30px">
+            <div class="container padding" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h1 class="text-center display-2 mt-4">Náš tým</h1>
+                </div>
+
+                <div class="row padding">
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="card">
+                            <img class="card-img-top" src="img/vojta.jpg">
+                            <div class="card-body">
+                                <h4>Vojta</h4>
+                                <p>Nejsem pštros! Ale protože ve své práci chrlím vodu na plameny a ve svém volném čase s pomocí kayaku křižuji proudy nejrůznějších řek, připomínám spíše vodního dráčka. A jen tak nějaké zranění mě také nezastaví!</p>                                                        
+                            </div>
+                        </div>    
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="card">
+                            <img class="card-img-top" src="img/monca.jpg">
+                            <div class="card-body">
+                                <h4>Monča</h4>
+                                <p>Nejsem pštros ale Volavka s hlavou stále v oblacích. 
+                                    Přestože se často pohybuji v přítomnosti řek a vodáků, doma jsem spíše v korunách stromů či na vrcholcích skal. A ačkoli bydlím už nějakou dobu v Olomouci, ráda se vracívám za rodinou a kamarády do svého rodného hnízda v Třebíči.</p>                    
+                            </div>
+                        </div>    
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="card">
+                            <img class="card-img-top" src="img/rozum.jpg">
+                            <div class="card-body">
+                                <h4>Rozum</h4>
+                                <p>Nejsem pštros, protože jsem Plameňák. Tedy čundrák milující plameny i vodu (čti řeku Sázavu). Mám rád růžovou a radši budu stát hodiny na jedné noze ve vodě, než abych někam letěl.</p>                    
+                            </div>
+                        </div>    
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="card">
+                            <img class="card-img-top" src="img/opi.jpg">
+                            <div class="card-body">
+                                <h4>Opi</h4>
+                                <p>Nejsem pštros, jsem pavouk. Přestože se jich trochu bojím. (Konec koncům trochu i sama sebe.) Baví mě tvořit, budovat a zhmotňovat věci. A taky mám ráda pestrou společnost. Ta na pavučinách bývá! A především, v jednom africkém jazyce jedním slovem označují pavouka i pohádkového hrdinu, a tím jsem rozhodně!</p>
+                            </div>
+                        </div>    
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="500">
+                        <div class="card">
+                            <img class="card-img-top" src="img/renca.jpg">
+                            <div class="card-body">
+                                <h4>Renča</h4>
+                                <p>Nejsem pštros, jsem kolibřík. Mám ráda svoji práci, chození po horách a úsměv na tváři – ostatních i té mé. A i když mě syndrom kolibříka občas dostihne – "mávám" velmi intenzivně kolem sebe a výsledek se ne a ne dostavit, snažím se nevzdávat se a svým drobným dílem přispět k více radosti na tomto světě.</p>                    
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="600">
+                        <div class="card">
+                            <img class="card-img-top" src="img/spunt.jpg">
+                            <div class="card-body">
+                                <h4>Špunt</h4>
+                                <p>Nejsem pštros, ale zajíc. Přesně ten zajíc z úsloví: "mnoho psů, zajícova smrt". Vždy mě lákalo přiliš mnoho různých aktivit – zájmů, studií, sportů i dobrovolnických činností – a jen tak tak se jim stíhám aspoň trochu věnovat. Mrkví prosím nekrmit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PAX -->
+        <div id="pax" class="container" style="height: 50px;"></div>
+        <section class="pax section-bg section-above" style="padding-top: 30px">
+            <div class="container padding" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h1 class="text-center display-2 mt-4">Účastníci</h1>
+                </div>
+
+                <div class="row padding">
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="card">
+                            <img class="card-img-top" src="img/ucastnici/anicka.jpg">
+                            <div class="card-body">
+                                <h4>Anička</h4>
+                                <p>Nejsem pštros, protože jsem včela. Ráda tvořím a pracuji se sladkým. Stejně jak včela mám ráda společnost milých přátel nebo rodiny.</p>                    
+                            </div>
+                        </div>                        
+                    </div>                    
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="card">
+                            <img class="card-img-top" src="img/ucastnici/dominik.jpg">
+                            <div class="card-body">
+                                <h4>Dominik</h4>
+                                <p>Nejsem pštros, jsem hylon (kříženec hydry a slona). Mám hodně hlav, dost je jich v oblacích. Když mi jednu činnost vezmete, tři další přibudou. A v mezilidských konverzacích občas trochu sloním (jako ten slon v porcelánu).</p>                    
+                            </div>
+                        </div>                        
+                    </div>                    
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="card">
+                            <img class="card-img-top" src="img/ucastnici/domca.jpg">
+                            <div class="card-body">
+                                <h4>Domča</h4>
+                                <p>Mám ptačí příjmení, takže bych v tom v tom viděla nějakého tvora s křídly. Neřekla bych ale jen jednoho. Skřivan, protože miluju hudbu a ráda ji předávám dal, kolibřík pro jeho vytrvalost, mrštnost, pestrost a schopnosti, které u tak malého tvora nikdo nečeká. Také orel pro sílu a vlaštovku pro svobodu, která mu věčně dává slunce, což je pro mě obrovská energie života.</p>                    
+                            </div>
+                        </div>                        
+                    </div>                    
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="card">
+                            <img class="card-img-top" src="img/ucastnici/filip.jpg">
+                            <div class="card-body">
+                                <h4>Filip</h4>
+                                <p>Nejsem pštros. Jsem vlk, který občas musí podnikat dlouhou pouť za lepší kořistí. Stejně tak já rád putuju, ať už po cestách na světě, tak i ve svém osobním životě. A stejně jako vlk si dokážu bránit to, co mám rád.</p>                    
+                            </div>
+                        </div>                        
+                    </div>                    
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="card">
+                            <img class="card-img-top" src="img/ucastnici/halina.jpg">
+                            <div class="card-body">
+                                <h4>Halina</h4>
+                                <p>Nejsem pštros, protože jsem vlk. Vlci byli odedávna symbolem kreativity a spojení s přírodou, symbolem hluboké intuice. Stejně jako vlci se i já cítím nejlépe ve své smečce. Vlci propojují plachou spiritualitu s hravostí v každodenním životě, a proto se i já počítám mezi vlky.</p>                    
+                            </div>
+                        </div>                        
+                    </div>                    
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="card">
+                            <img class="card-img-top" src="img/ucastnici/honza.jpg">
+                            <div class="card-body">
+                                <h4>Honza</h4>
+                                <p>Nejsem pštros, jsem veverka. Často se držím v pozadí, ale umím překvapit – jako veverka, když přeběhne přes cestu těsně před autem. Mám rád přísloví "co tě nezabije, to tě posílí" – a já stále žiju. Rád překonávám překážky, vlastně v tu chvíli nerad, o to větší z toho mám později radost. Zajímá mě moderní historie, rád natáčím a stříhám videa, jezdím na kole a pořádám volnočasové akce.</p>                    
+                            </div>
+                        </div>                        
+                    </div>                    
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="card">
+                            <img class="card-img-top" src="img/ucastnici/julca.jpg">
+                            <div class="card-body">
+                                <h4>Julča</h4>
+                                <p>Nejsem pštros, jsem veverka. Úplně nejlíp se cítím uprostřed lesa. Když mě někdo naštve, hodím po něm nějakou tou šiškou. Radši sedím schovaná ve větvích a pozoruju dění z dálky, než abych byla středem pozornosti já. A zvládnu zapomenout i na to, kam jsem schovala zásoby na horší časy.</p>                    
+                            </div>
+                        </div>                        
+                    </div>                    
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="card">
+                            <img class="card-img-top" src="img/ucastnici/jachym.jpg">
+                            <div class="card-body">
+                                <h4>Jáchym</h4>
+                                <p>Nejsem pštros, jsem zebra. Velmi rád závodím s členy svého stáda a mám tolik zájmů, že zčasti nevím, kam se dřív rozběhnout. Ve svém volném čase rád proháním s kamarády kulatou věc stejně černobílou jako má srst a vedu války dvou armád stejných barev.</p>                    
+                            </div>
+                        </div>                        
+                    </div>                    
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="card">
+                            <img class="card-img-top" src="img/ucastnici/kata.jpg">
+                            <div class="card-body">
+                                <h4>Káťa</h4>
+                                <p>Nejsem pštros, ale jsem kočka, která ráda spí, přesto v noci ožívá. Stejně jako taková kočka se dokážu nadchnout z různých věcí a jako s hračkou si s nimi vyhrát, dokud mi síly stačí.</p>                    
+                            </div>
+                        </div>                        
+                    </div>                    
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="card">
+                            <img class="card-img-top" src="img/ucastnici/marky.jpg">
+                            <div class="card-body">
+                                <h4>Marky</h4>
+                                <p>Nejsem pštros, jsem lvice 😀 Jsem celkem vůdčí osobnost a ráda beru věci do svých rukou. Ráda zkouším nové věci a mám ráda výzvy. Mojí smečkou je skaut a ten je pro mě moc důležitý, stejně jako moje rodina a mí kamarádi. ...a samozřejmě mám moc ráda spánek a jídlo 😋</p>                    
+                            </div>
+                        </div>                        
+                    </div>                    
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="card">
+                            <img class="card-img-top" src="img/ucastnici/pepa.jpg">
+                            <div class="card-body">
+                                <h4>Pepa</h4>
+                                <p>Nejsem pštros, jsem orel. Rád poznávám nové lidi a krajinu. Nebojím se výšek, ale dost věcí mi dokáže nahnat strach. Mám smysl pro humor. Rád se vracím do svého hnízda, kde vymýšlím nové nápady. Krmit prosím masem.</p>                    
+                            </div>
+                        </div>                        
+                    </div>                    
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="card">
+                            <img class="card-img-top" src="img/ucastnici/peta.jpg">
+                            <div class="card-body">
+                                <h4>Peťa</h4>
+                                <p>Nejsem pštros, ale lev, protože nejen hrdě nosím svoji dlouhou hřívu, ale také proto, že jsem hodně dravá a akční. Ačkoliv se můžu zdát jako tiché zvíře, někdy dokážu i ohromit svým řevem. Ale stále jsem hodně hravá a nadšená pro nové věci, proto se cítím spíše ještě jako lvíče. Často chci, aby věci byly po mém, a tak se občas ocitám v roli takového generála, který všechno řídí. Nejčastěji mě najdete v nejaké tlupě s dětmi či dospívajícími, kterým se ráda věnuji ve volném čase, anebo když chci být sama, můžete mě zahlédnout, jak běhám po lesích či loukách.</p>                    
+                            </div>
+                        </div>                        
+                    </div>                    
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="card">
+                            <img class="card-img-top" src="img/ucastnici/paja.jpg">
+                            <div class="card-body">
+                                <h4>Pája</h4>
+                                <p>Nejsem pštros, ale světluška. Stejně jako ona tvoří malé zelené světýlko, tak i mou zálibou je vytvářet nové věci. Svou kreativitu nejradši uplatňuji při organizaci akcí pro další brouky nejen z naší skautské čeledi. Jsem aktivní v noci a nejlépe se cítím v lese. Ráda trávím čas ve společnosti ostatních světlušek, ale nevadí mi se občas o samotě zakuklit. Někdy létám při zemi, avšak se svými sny a touhami mám sem tam hlavu v oblacích. </p>                    
+                            </div>
+                        </div>                        
+                    </div>                    
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="card">
+                            <img class="card-img-top" src="img/ucastnici/teri.jpg">
+                            <div class="card-body">
+                                <h4>Teri</h4>
+                                <p>Kdybych se měla připodobnit k nějakému zvířeti, byl by to vlk. Ráda trávím čas ve společnosti, s mými nejbližšími, s mojí smečkou a zároveň jsem i ráda sama. Mým domovem, kde se skutečně cítím doma, je divočina, příroda.  Miluji svobodu a volnost. Když mě ale ochočíš, přizpůsobím se. Dokáži chodit podle pravidel, být hodná, milá, ale zároveň nepřestávám být sama sebou. Tím, kým doopravdy jsem. Jsem jako vlk, nenápadná a vnímavá ke svému okolí, ale také občas nekompromisní.</p>                    
+                            </div>
+                        </div>                        
+                    </div>                    
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="card">
+                            <img class="card-img-top" src="img/ucastnici/vasekd.jpg">
+                            <div class="card-body">
+                                <h4>Vašek</h4>
+                                <p>Nejsem pštros, protože jsem rosomák. Tedy kluk milující výzvy a snažící se najít odvahu i tváří tvář velkým věcem. Také mám rád divokou přírodu a cestování. </p>                    
+                            </div>
+                        </div>                        
+                    </div>                    
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="card">
+                            <img class="card-img-top" src="img/ucastnici/vasekh.jpg">
+                            <div class="card-body">
+                                <h4>Vašek H</h4>
+                                <p>Nejsem pštros, ale medvěd. Stejně jako medvěd se rád vyskytuju v lese nebo horách, ale také stejně jako medvěd mám rád svůj klid, jídlo a spánek (teda většinou ne přes celou zimu). Když mi o něco fakt jde, dokážu být houževnatý a vytrvalý jako medvěd.</p>                    
+                            </div>
+                        </div>                        
+                    </div>                    
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="card">
+                            <img class="card-img-top" src="img/ucastnici/zdiska.jpg">
+                            <div class="card-body">
+                                <h4>Zdiška</h4>
+                                <p>Nejsem pštros, protože jsem kosatka. Ve vodě se cítím jako doma. Ráda plavu a trávím u vody svůj čas. Stejně jako kosatka ráda trávím čas ve skupině svých blízkých přátel a rodiny. Společně s nimi proplouvám životem a navzájem se držíme nad hladinou.</p>                    
+                            </div>
+                        </div>                        
+                    </div>                    
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- APPLICATION -->
+        <section id="application" class="application">
+            <div class="container" data-aos="fade-up">
+                <div class="section-title">
+                    <h1 class="text-center display-2 mt-4">Přihlášení</h1>
+                </div>
+
+                <div class="row mb-4 mt-4">
+                    <div class="col-12 text-center">
+                        <b>Počet účastníků je omezený na 24, proto s přihlášením neváhej!</b><br>
+                        Pokud máš ještě nějaké otázky, které bys rád prodiskutoval, klidně nám napiš nebo zavolej. 
+                        Můžeš se obrátit na Opi / Terezu Markovou <span style="white-space: nowrap">(<i class="bi bi-envelope"></i> <a href="mailto:tereza.markova@volny.cz" style="display: inline">tereza.markova@volny.cz</a></span>, <span style="white-space: nowrap"></span><i class="bi bi-phone"></i> 736 262 582)</span> nebo na kohokoli z týmu, koho znáš.<br><br>
+                        <b>Jak se přihlásit?</b>
+                        <br><br>
+                        Stáhni si <i class="bi bi-file-earmark-word"></i><a href="nebud-pstros-prihlaska.docx">přihlášku</a> na náš kurz.<br>
+                        <i class="bi bi-arrow-down-circle-fill"></i>
+                        Přihlášku vyplň.<br>
+                        <i class="bi bi-arrow-down-circle-fill"></i>
+                        Vyplněnou přihlášku pošli Opi / Tereze Markové.<br>
+                        <i class="bi bi-envelope"></i> <a href="mailto:tereza.markova@volny.cz" style="display: inline">tereza.markova@volny.cz</a>, <i class="bi bi-phone"></i> 736 262 582<br>
+                        <i class="bi bi-arrow-down-circle-fill"></i>
+                        A to je vše. Ozveme se Ti.<br><br>
+                        Po našem potvrzení budeš také vyzván k zaplacení účastnického poplatku, ten následně pošli na účet Halahoje:<br>
+                        <i class="bi bi-credit-card"></i> číslo účtu 6095819349/0800, variabilní symbol 2206, do poznámky pro příjemce uveď jméno účastníka.
+                        <br><br>
+                    </div>
+                </div>
+
+                <div class="row mt-4">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10 col-md-12"><img src="img/noc.jpg" alt="" class="img-fluid photo"></div>
+                    <div class="col-lg-1"></div>
+                </div>
+            </div>
+        </section> 
+
+        <!-- FOOTER -->
+        <footer id="footer" class="page-footer bg-dark font-small text-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 ms-auto">
+                        <div class="pb-1"><a href="http://www.halahoj.org" target="_blank"><img src="img/halahoj-white.gif" class="img-fluid"></a></div>
+                    </div>
+                    <div class="col-lg-9 col-md-8 col-sm-7 col-10 text-end footer-right d-flex">
+                        <div class="mt-auto ms-auto pb-1">&copy; 2022&nbsp;&nbsp;code&design&nbsp;&nbsp;Tomáš Protivínský, <a href="mailto:tomas.protivinsky@gmail.com">tomas.protivinsky@gmail.com</a></div>
+                    </div>
+                    <div class="col-sm-1 col-2 d-flex">
+                        <div class="mt-auto me-auto footer-github"><a href="https://github.com/protivinsky/nebud-pstros" target="_blank"><i class="bi bi-github" role="img" aria-label="GitHub"></i></a></div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+        <script>
+            /**
+             * Easy selector helper function
+             */
+            const select = (el, all = false) => {
+                el = el.trim()
+                if (all) {
+                return [...document.querySelectorAll(el)]
+                } else {
+                return document.querySelector(el)
+                }
+            }
+
+            /**
+             * Easy on scroll event listener 
+             */
+            const onscroll = (el, listener) => {
+                el.addEventListener('scroll', listener)
+            }
+
+            /**
+             * Back to top button
+             */
+            let backtotop = select('.back-to-top')
+            if (backtotop) {
+                const toggleBacktotop = () => {
+                if (window.scrollY > 100) {
+                    backtotop.classList.add('active')
+                } else {
+                    backtotop.classList.remove('active')
+                }
+                }
+                window.addEventListener('load', toggleBacktotop)
+                onscroll(document, toggleBacktotop)
+            }
+        </script>        
+
+        <!--
+        <script>
+            const navLinks = document.querySelectorAll('.nav-item')
+            const menuToggle = document.getElementById('navbarResponsive')
+            const bsCollapse = new bootstrap.Collapse(menuToggle)
+            navLinks.forEach((l) => {
+                l.addEventListener('click', () => { bsCollapse.hide() })
+            })
+        </script>
+        -->
+
+    </body>
+</html>
