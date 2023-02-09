@@ -64,7 +64,7 @@
     background: url(img/car1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: center bottom;
 }
 
 .carousel-item-2 {
