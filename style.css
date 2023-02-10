@@ -71,14 +71,14 @@
     background: url(img/car2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center top;
 }
 
 .carousel-item-3 {
     background: url(img/car3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center top;
 }
 
 /* ABOUT */
