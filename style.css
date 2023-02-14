@@ -71,14 +71,14 @@
     background: url(img/vzduch.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center bottom;
+    background-position: center top;
 }
 
 .carousel-item-3 {
     background: url(img/zeme.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center top;
 }
 
 .carousel-item-4 {
