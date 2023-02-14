@@ -61,7 +61,7 @@
 }
 
 .carousel-item-1 {
-    background: url(img/car1.jpg);
+    background: url(img/ohen.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -82,10 +82,10 @@
 }
 
 .carousel-item-4 {
-    background: url(img/voda2.jpg);
+    background: url(img/voda.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: center center;
 }
 
 /* ABOUT */
