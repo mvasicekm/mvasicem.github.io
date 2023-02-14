@@ -61,10 +61,10 @@
 }
 
 .carousel-item-1 {
-    background: url(img/ohen.jpg);
+    background: url(img/zeme.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center bottom;
+    background-position: left center;
 }
 
 .carousel-item-2 {
@@ -75,10 +75,10 @@
 }
 
 .carousel-item-3 {
-    background: url(img/zeme.jpg);
+    background: url(img/ohen.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: left center;
+    background-position: center bottom;
 }
 
 .carousel-item-4 {
