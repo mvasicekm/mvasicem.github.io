@@ -68,14 +68,21 @@
 }
 
 .carousel-item-2 {
-    background: url(img/car2.jpg);
+    background: url(img/vzduch.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: center center;
 }
 
 .carousel-item-3 {
-    background: url(img/car3.jpg);
+    background: url(img/zeme.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.carousel-item-4 {
+    background: url(img/voda2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
@@ -133,7 +140,7 @@ img.photo {
 }
 
 .team .card h4 a {
-    color: #124265;
+    color: #0dcaf0;
     transition: ease-in-out 0.3s;
 }
 
