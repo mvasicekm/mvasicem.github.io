@@ -71,7 +71,7 @@
     background: url(img/vzduch.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: center center;
 }
 
 .carousel-item-3 {
