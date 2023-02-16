@@ -2,4 +2,4 @@
 
 Se svolením Špunta jsem použil jeho web z kurzu 2022
 
-Web pages of a summer experiential course [Nebuď pštros](http://pstros.halahoj.org).
+Web pages of a summer experiential course [Živoucí anomalie](http://anomalie.halahoj.org).
