@@ -61,10 +61,10 @@
 }
 
 .carousel-item-1 {
-    background: url(img/zeme.jpg);
+    background: url(img/zeme3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: left center;
+    background-position: center center;
 }
 
 .carousel-item-2 {
@@ -82,7 +82,7 @@
 }
 
 .carousel-item-4 {
-    background: url(img/voda.jpg);
+    background: url(img/voda2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -114,7 +114,7 @@ img.photo {
 
 .about .description li:before {
     content: "\F4F5";
-    font-family: bootstrap-icons!important;
+    font-family: bootstrap-icons, serif !important;
     float: left;
     margin-top: 1px;
     margin-left: -22px;
@@ -130,7 +130,7 @@ img.photo {
     text-align: center;
     transition: all ease-in-out 0.3s;
     background: #fff;
-    box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
+    box-shadow: 0 5px 90px 0 rgba(110, 123, 131, 0.05);
 }
 
 .team .card h4 {
@@ -179,7 +179,7 @@ img.photo {
     color: #444444;
     font-size: 14px;
     background: #f8fbfe;
-    box-shadow: 0px 2px 15px rgba(18, 66, 101, 0.08);
+    box-shadow: 0 2px 15px rgba(18, 66, 101, 0.08);
     padding: 30px 0 30px 0;
   }
 
