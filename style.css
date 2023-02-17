@@ -258,7 +258,7 @@ section {
     max-width: 1000px;
     position: center;
     margin: 1rem auto;
-    gap: 1rem
+    gap: 1rem;
 }
 .kodfun-galeri > div {
     flex: 1;
