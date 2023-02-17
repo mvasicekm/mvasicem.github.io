@@ -61,7 +61,7 @@
 }
 
 .carousel-item-1 {
-    background: url(img/zeme3.jpg);
+    background: url(img/zeme.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -82,7 +82,7 @@
 }
 
 .carousel-item-4 {
-    background: url(img/voda2.jpg);
+    background: url(img/voda.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -97,7 +97,7 @@ img.photo {
     border: 15px solid #f3f3f3;
 }
 
-/* APPLICATION */
+/* ABOUT */
 .about a {
     color: #000;
     text-decoration: underline;
@@ -106,7 +106,6 @@ img.photo {
 .about a:hover {
     text-decoration: none;
 }
-
 
 .about .description li {
     display: block;
@@ -249,4 +248,26 @@ section {
 
 .section-bg {
     background-color: #f6f6f6;
+}
+
+/* GALERY */
+
+.kodfun-galeri {
+    display: flex;
+    height: 20rem;
+    max-width: 1000px;
+    position: center;
+    margin: 1rem auto;
+    gap: 1rem
+}
+.kodfun-galeri > div {
+    flex: 1;
+    border-radius: 0.3rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+}
+.kodfun-galeri > div:hover {
+    flex: 4;
 }
